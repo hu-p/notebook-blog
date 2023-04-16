@@ -110,8 +110,19 @@ theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deployer:
-  type: git
-  repo:
-  github: https://github.com/hu-p/hu-p.github.io.git
-  branch: gh-pages
+# deployer:
+#   type: git
+#   repo:
+#   github: https://github.com/hu-p/hu-p.github.io.git
+#   branch: gh-pages
+#   type: git
+#   repo: git@gitee.com:hu-p/hu-p.git
+#   branch: ge-pages
+
+deploy:
+  - type: git
+    repo: git@github.com:hu-p/hu-p.github.io.git
+    branch: gh-pages
+  - type: git
+    repo: git@gitee.com:beimingkunpeng/hu-p.git
+    branch: ge-pages
