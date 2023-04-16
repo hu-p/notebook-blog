@@ -1,10 +1,8 @@
 name: Sync
  
- 
 on:
   push:
-    branches: [ master ]
- 
+    branches: [ main ]
  
 jobs:
   build:
@@ -17,9 +15,11 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
       with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: "git@github.com:hu-p/hu-p.github.io.git"
+          # source-repo: "git@github.com:hu-p/hu-p.github.io.git"
+          source-repo: "git@github.com:hu-p/notebook-blog.git"
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: "git@gitee.com:beimingkunpeng/peng-sir.git"
+          # destination-repo: "git@gitee.com:beimingkunpeng/beimingkunpeng.git"
+          destination-repo: "git@gitee.com:beimingkunpeng/blog-origin.git"
  
  
     - name: Build Gitee Pages
@@ -29,5 +29,8 @@ jobs:
           gitee-username: beimingkunpeng
           # 注意在 Settings->Secrets 配置 GITEE_PASSWORD
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
-          # 注意替换为你的 Gitee 仓库
-          gitee-repo: beimingkunpeng/peng-sir
+          # 注意替换为你的 Gitee 仓库，仓库名严格区分大小写，请准确填写，否则会出错
+          gitee-repo: beimingkunpeng/beimingkunpeng
+          # 要部署的分支，默认是 master，若是其他分支，则需要指定（指定的分支必须存在）
+          branch: ge-pages
+          

@@ -17,7 +17,6 @@ language: zh-CN
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://github.com/hu-p.github.io
-# root: .
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -121,5 +120,5 @@ deploy:
     repo: git@github.com:hu-p/hu-p.github.io.git
     branch: gh-pages
   - type: git
-    repo: git@gitee.com:beimingkunpeng/hu-p.git
+    repo: git@gitee.com:beimingkunpeng/beimingkunpeng.git
     branch: ge-pages
