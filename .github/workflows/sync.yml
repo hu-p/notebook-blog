@@ -2,8 +2,7 @@ name: Sync
  
 on:
   push:
-    # branches: [ master ]
-    - main # default branch
+    branches: [ master ]
  
 jobs:
   build:
