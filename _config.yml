@@ -115,9 +115,6 @@ theme: fluid
 #   repo:
 #   github: https://github.com/hu-p/hu-p.github.io.git
 #   branch: gh-pages
-#   type: git
-#   repo: git@gitee.com:hu-p/hu-p.git
-#   branch: ge-pages
 
 deploy:
   - type: git
