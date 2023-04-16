@@ -19,7 +19,7 @@ jobs:
           source-repo: "git@github.com:hu-p/notebook-blog.git"
           # 注意替换为你的 Gitee 目标仓库地址
           # destination-repo: "git@gitee.com:beimingkunpeng/beimingkunpeng.git"
-          destination-repo: "git@gitee.com:beimingkunpeng/blog-origin.git"
+          destination-repo: "git@gitee.com:beimingkunpeng/notebook-blog.git"
  
  
     - name: Build Gitee Pages
