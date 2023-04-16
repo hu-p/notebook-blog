@@ -1,5 +1,7 @@
 ---
 title: CSS知识点汇总
+category: ["CSS"]
+tags: ["CSS"]
 ---
 
 # CSS知识点汇总

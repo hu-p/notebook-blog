@@ -1,5 +1,9 @@
 ---
 title: typescript介绍
+categories: 
+  [TypeScript]
+tags: 
+  [TypeScript]
 ---
 # typescript介绍
 

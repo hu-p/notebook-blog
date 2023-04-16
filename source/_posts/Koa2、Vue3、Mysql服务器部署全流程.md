@@ -1,8 +1,9 @@
 ---
 title: Koa2、Vue3、Mysql服务器部署全流程
-categories: koa
+categories: 
+  [koa]
 tags: 
-  koa
+  [koa]
 ---
 # Koa2、Vue3、Mysql服务器部署全流程
 

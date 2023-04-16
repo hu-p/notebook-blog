@@ -1,5 +1,9 @@
 ---
 title: TypeScript学习指南
+categories: 
+  [TypeScript]
+tags: 
+  [TypeScript]
 ---
 # TypeScript学习指南
 
@@ -7,9 +11,6 @@ title: TypeScript学习指南
 
  Vue2 和 TS 的结合总感觉不是很丝滑 ,**react hook+ts** 这一套组合拳 然后在重新认真学习并在项目里用上了 ts 之后 ,最直观的感受就是可以帮我们规避很多类型错误 更友好的提示 甚至有些方法我们根据定义的类型大概就知道作用是什么了（去掉了写注释的麻烦）况且如今大火的 **Vue3** 也是 TS 重构的 然后 react 和 ts 的结合就更不必说
 
-> 整理不易 如果觉得本文有帮助 记得**点赞三连**哦 十分感谢！
-
----
 
 ### 1 ts 安装和编译
 

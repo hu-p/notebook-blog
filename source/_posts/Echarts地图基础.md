@@ -1,6 +1,9 @@
-
 ---
 title: react中使用echarts
+category: 
+ ["echarts"]
+tags: 
+ ["echarts"]
 ---
 
 # react中使用echarts来绘制中国地图

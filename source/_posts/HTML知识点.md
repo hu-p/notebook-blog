@@ -1,6 +1,7 @@
-
 ---
 title: 静态网页技术———HTML5知识点汇总
+category: ["HTML5"]
+tags: ["HTML5"]
 ---
 
 # 静态网页技术———HTML5知识点汇总

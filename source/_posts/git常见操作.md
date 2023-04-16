@@ -1,6 +1,7 @@
-
 ---
 title: git常见操作
+category: ["git"]
+tags: ["git"]
 ---
 # git常见操作
 

@@ -1,5 +1,9 @@
 ---
 title: Nuxt入门总结
+categories: 
+  [Nuxt]
+tags: 
+  [Nuxt]
 ---
 
 # Nuxt入门总结
